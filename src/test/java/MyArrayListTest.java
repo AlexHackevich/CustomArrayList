@@ -89,7 +89,7 @@ class MyArrayListTest {
         myArrayList.remove(index);
 
 
-        assertTrue(myArrayList.size()==0);
+        assertTrue(myArrayList.size() == 0);
     }
 
     private static Stream<Arguments> getDataForRemove() {
@@ -108,8 +108,8 @@ class MyArrayListTest {
         myArrayList.add(data);
         myArrayList.add(data);
         myArrayList.clear();
-        assertTrue(myArrayList.size()==0);
-        assertEquals(myArrayList.get(0),null);
+        assertTrue(myArrayList.size() == 0);
+        assertEquals(myArrayList.get(0), null);
     }
 
     private static Stream<Arguments> getDataForClear() {
